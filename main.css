@@ -1,0 +1,135 @@
+.container {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    padding: 40px;
+    padding-top: 100px;
+    box-sizing:border-box;
+}
+.column {
+    flex: 1;
+    margin: 20px;
+    box-sizing: border-box;
+}
+.column img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+    .column {
+        margin: 10px 0;
+    }
+}
+.clients h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+}
+
+.clients{
+    font-family: Arial, Helvetica, sans-serif,bold;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(23, 53, 26);
+    color: white;
+    margin: 25px;
+    padding: 20px; 
+    border-radius: 10px;
+}
+.clients img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.accordion {
+    font-family: Arial, Helvetica, sans-serif,bold;
+    text-align: center;
+    margin: 25px;
+    padding: 20px; 
+    border-radius: 10px;    
+}
+
+.accordion h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.accordion-item {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.work h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 80px;
+    text-align: center;
+    align-items: center;
+}
+
+.column3 {
+    flex: 1 1 calc(33.333% - 40px);
+    margin: 20px;
+    box-sizing: border-box;
+}
+.column3 img {
+    width: 100%;
+    height: auto;
+    display: block;
+    filter: saturate(0);
+}
+
+a:hover img {
+    filter: saturate(1.6);
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.logos {
+    background-color: rgb(23, 53, 26);
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.logos-container {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    margin: 0 10px;
+}
+
+.logo img {
+    width: 35px;
+    height: auto;
+}
+
+.container-fluid {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: rgb(23, 53, 26);
+}
+.navbar-brand {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: rgb(23, 53, 26);
+}
